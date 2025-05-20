@@ -3,28 +3,23 @@ Algoritmo "semnome"
 // Professor   : Mateus de Paula Pereira 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 19/05/2025
+// Data atual  : 20/05/2025
 Var
 // Seção de Declarações das variáveis 
 
-   nome: caracter
-   a: real
-   b: real
-   resultado: real
+   idade: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 
-   escreva ("Valor 1: ")
-   leia (a)
-   
-   escreva ("Valor 2: ")
-   leia (b)
-   
-   resultado <- a + b
-   escreva ("resultado é = " ,resultado)
-   
+     escreva ("digitr sua idade ")
+     leia (idade)
 
+     se (idade >= 18) então
+     escreva ("você é maior de idade.")
 
-      
+     senao
+     escreva ("você é menor de idade.")
+     fimse
+
 Fimalgoritmo
