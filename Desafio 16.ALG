@@ -1,22 +1,22 @@
 Algoritmo "semnome"
 // Disciplina   : UC3 ALGORITIMOS
 // Professor   : Mateus de Paula Pereira 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 21/05/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
    dia, anos, total: inteiro
    min, perdido: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
         escreva ("Quantos cigarros fumados por dia: ")
         leia (dia)
         
-        escreva ("Quantos anos já fumou: ")
+        escreva ("Quantos anos jÃ¡ fumou: ")
         leia (anos)
         
         total <- dia * 365 * anos
@@ -25,7 +25,7 @@ Inicio
         
         perdido <- min /1440  //1 dia = 1440 minutos
         
-        escreva ("Perdeu aproximadamente:",perdido," dias de vida.")
+        escreva ("Perdeu aproximadamente:",perdido:2," dias de vida.")
         
 
 Fimalgoritmo
